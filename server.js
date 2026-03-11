@@ -99,4 +99,4 @@ server.listen(PORT, () => {
   seedAdmin();
 });
 
-module.exports = { app, server, io };
+module.exports = app;
